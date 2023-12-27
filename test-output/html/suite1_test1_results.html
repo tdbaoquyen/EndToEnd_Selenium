@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 135.041s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.TestCase.TC_LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    4.663s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample6@gmail.com", "Abc000"</span><br />
+    
+            <div class="testOutput">
+                        <br><a href=D:\Testing_practise\STP304x_EndToEnd_Selenium\.\screenshots\funixExample62023-12-22.png><img src="D:\Testing_practise\STP304x_EndToEnd_Selenium\.\screenshots\funixExample62023-12-22.png"width='360; height='240'/></a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/logout&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=120.0.6099.111)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-SUM4876&apos;, ip: &apos;192.168.114.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.111, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\ThinkPad\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52138}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: aab7627be6640f8c118698691eedcfda<br/>
+*** Element info: {Using=xpath, value=//a[@href=&apos;/logout&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              test.Pom.LoginPage.clickSignOutBtn(LoginPage.java:50)<br />
+              test.TestCase.TC_LoginTest.TC01_LoginExcelAccount(TC_LoginTest.java:47)<br />
+              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
+              org.testng.TestRunner.run(TestRunner.java:596)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
+              org.testng.TestNG.run(TestNG.java:1031)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    4.624s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample7@gmail.com", "Abc111"</span><br />
+    
+            <div class="testOutput">
+                        <br><a href=D:\Testing_practise\STP304x_EndToEnd_Selenium\.\screenshots\funixExample72023-12-22.png><img src="D:\Testing_practise\STP304x_EndToEnd_Selenium\.\screenshots\funixExample72023-12-22.png"width='360; height='240'/></a><br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/logout&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=120.0.6099.111)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-SUM4876&apos;, ip: &apos;192.168.114.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.111, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\ThinkPad\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52138}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: aab7627be6640f8c118698691eedcfda<br/>
+*** Element info: {Using=xpath, value=//a[@href=&apos;/logout&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              test.Pom.LoginPage.clickSignOutBtn(LoginPage.java:50)<br />
+              test.TestCase.TC_LoginTest.TC01_LoginExcelAccount(TC_LoginTest.java:47)<br />
+              java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:578)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
+              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
+              org.testng.TestRunner.run(TestRunner.java:596)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
+              org.testng.TestNG.run(TestNG.java:1031)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.TestCase.TC_LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  AccessLoginPage
+      </td>
+  <td class="duration">
+    1.200s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    9.127s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample4@gmail.com", "Funix1234567"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    9.229s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample5@gmail.com", "Admin123"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    9.271s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample3@gmail.com", "Funix1122"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    9.217s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample1@gmail.com", "Abc@1234"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC01_LoginExcelAccount
+      </td>
+  <td class="duration">
+    9.209s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"funixExample2@gmail.com", "Abc@13579"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC02_RegisterAccount
+      </td>
+  <td class="duration">
+    30.457s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC03_accessProductPage
+      </td>
+  <td class="duration">
+    7.908s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC05_verifyProductResult
+      </td>
+  <td class="duration">
+    2.281s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC06_verifyDetailProduct
+      </td>
+  <td class="duration">
+    3.537s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC07_actionAddtoCart
+      </td>
+  <td class="duration">
+    5.413s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC07_verifyViewCart
+      </td>
+  <td class="duration">
+    4.063s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC08_verifyDeleteBtn
+      </td>
+  <td class="duration">
+    6.887s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC09_deleteExistAccount
+      </td>
+  <td class="duration">
+    7.596s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+## END TO END TESTCASE WITH Selenium Webdriver:
+
+- Create Maven project with support libraries: TestNG, ReportNG, Guice, POI, Chrome Driver
+- Create basic architecture for project: package, folder, properties file.v.v..
+- Create End to End (E2E) testcase for Buying workflow:
+	1. Login with multi accounts:
+		- Login User with correct Email and Password
+		- Login User with incorrect Email and Password
+		- Logout User
+	2. Create new Account and access Product page
+	3. Search product by enter keyword in search box
+	4. Check searching product: name, image product, Add to Cart button.v.v..
+	5. View detail Product
+	6. Action: 
+		- Enter quatity
+		- Add searching product to Cart
+		- Checking product in Cart
+		- Remove product in Cart
+	7. Delete existing account
+	8. Close Chrome browser
+
+** With FAILED testcases, export report with ReportNG
+		
